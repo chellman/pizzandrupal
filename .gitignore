@@ -1,23 +1,7 @@
 # Ignore configuration files that may contain sensitive information.
 sites/*/*settings*.php
 
-# Ignore paths that contain generated content.
-files/
-sites/*/files
-sites/*/private
-
-# Ignore default text files
-.htaccess
-robots.txt
-/CHANGELOG.txt
-/COPYRIGHT.txt
-/INSTALL*.txt
-/LICENSE.txt
-/MAINTAINERS.txt
-/UPGRADE.txt
-/README.txt
-sites/all/README.txt
-sites/all/modules/README.txt
-sites/all/themes/README.txt
+drupal/sites/*/files
+drupal/sites/*/private
 
 drupal/sites/default/settings.php
